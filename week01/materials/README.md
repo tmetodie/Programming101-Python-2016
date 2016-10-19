@@ -1,6 +1,6 @@
 Presentations
 ========================
-1. (Intro)[http://slides.com/hackbulgaria/deck-40?token=bi16cPi2]
+1. [Intro](http://slides.com/hackbulgaria/deck-40?token=bi16cPi2)
 
 Data Structures
 ========================
