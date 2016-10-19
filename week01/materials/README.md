@@ -1,6 +1,7 @@
 Presentations
 ========================
 1. [Intro](http://slides.com/hackbulgaria/deck-40?token=bi16cPi2)
+2. [Data Structures and Comprehensions](http://slides.com/hackbulgaria/deck-51-52-53-66?token=6Z6F8ywW)
 
 Data Structures
 ========================
