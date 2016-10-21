@@ -26,6 +26,7 @@ True
 False
 >>> is_number_balanced(1238033)
 True
+```
 
 # 2.Increasing and Decreasing Sequences
 ----------------
@@ -46,7 +47,7 @@ And before you skip this problem, because of the math terminology, let me explai
 
 For example, `[1,2,3,4,5]` is monotonously increasing, but `[1,2,3,4,5,1]` is not.
 
-### Test Examples
+ Test Examples
 ```python
 >>> increasing_or_decreasing([1,2,3,4,5])
 Up!
