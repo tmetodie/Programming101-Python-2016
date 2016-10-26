@@ -2,6 +2,16 @@
 
 Course materials &amp; problems for HackBulgaria's Programming 101 with Python. Starting Octomber 2016.
 
+## Course weeks
+
+| Week | Date | Tasks | Presentations |
+|---------|-------- |---------|-------------|
+| 1       | Monday - 17.10|[Tasks for week1](week01/)      | [Intro](http://slides.com/hackbulgaria/deck-40?token=bi16cPi2)      |
+| 1 | Wednesday - 19.10 | [Tasks for week1](week01/) | [Data Structures and Comprehensions](http://slides.com/hackbulgaria/deck-51-52-53-66?token=6Z6F8ywW)  |
+| 1 | Friday - 21.10 | [Tasks for week1](week01/) |  |
+| 2 | Monday - 24.10 | [Tasks for week2](week02/) |  |
+| 2 | Wednesday - 26.10 | [Tasks for week2](week02/) | [Reading/writing files, os, sys, main](http://slides.com/hackbulgaria/deck-f6fdcd0f-1abd-4688-9f65-c6ce0ae8e808-67/live#/) |
+
 
 ## Course Program
 
@@ -10,7 +20,7 @@ Course materials &amp; problems for HackBulgaria's Programming 101 with Python. 
   * Installing Linux - basic shell commands.
   * Python tooling on Linux
   * PEP8
-  * Text Editors - vim, sublime, atom, etc.. 
+  * Text Editors - vim, sublime, atom, etc..
   * Solving Python problems in order to get familiar with the language
 
 ### Week 2
