@@ -184,3 +184,54 @@ except FileNotFoundError as error:
 ```
 
 When you `except` the error, it wont crash your program.
+
+
+## Count characters, words or lines
+
+Implement a Python script, called `wc.py` that takes two arguments:
+
+* A command, that can be one of the following : `chars`, `words`, `lines`
+* A filename
+
+The script should output, according to the command, the following:
+
+* For the command `chars`, the number of characters in the file
+* For the command `words`, the number of words in the file
+* For the  command `lines`, the number of lines in the file
+
+
+### Examples
+
+Lets have the following text:
+
+__story.txt:__
+
+```
+Now indulgence dissimilar for his thoroughly has terminated. Agreement offending commanded my an. Change wholly say why eldest period. Are projection put celebrated particular unreserved joy unsatiable its. In then dare good am rose bred or. On am in nearer square wanted.
+
+Of resolve to gravity thought my prepare chamber so. Unsatiable entreaties collecting may sympathize nay interested instrument. If continue building numerous of at relation in margaret. Lasted engage roused mother an am at. Other early while if by do to. Missed living excuse as be. Cause heard fat above first shall for. My smiling to he removal weather on anxious.
+
+Ferrars all spirits his imagine effects amongst neither. It bachelor cheerful of mistaken. Tore has sons put upon wife use bred seen. Its dissimilar invitation ten has discretion unreserved. Had you him humoured jointure ask expenses learning. Blush on in jokes sense do do. Brother hundred he assured reached on up no. On am nearer missed lovers. To it mother extent temper figure better.
+
+```
+
+__Print the chars:__
+
+```
+$ python3 wc.py chars story.txt
+1032
+```
+
+__Print the words:__
+
+```
+$ python3 wc.py words story.txt
+166
+```
+
+__Print the lines:__
+
+```
+$ python3 wc.py lines story.txt
+6
+```
