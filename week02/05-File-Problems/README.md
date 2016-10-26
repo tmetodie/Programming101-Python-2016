@@ -233,5 +233,5 @@ __Print the lines:__
 
 ```
 $ python3 wc.py lines story.txt
-6
+5
 ```
