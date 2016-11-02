@@ -15,7 +15,6 @@ Our `BankAccount` will have the following methods:
 * `transfer_to(account, amount)` - transfers `amount` to `account` if they both have the same currencies! Returns `True` if successful.
 * `history()` - returns a list of strings, that represent the history of the bank account. Check examples below for more information.
 
-**You must implement `unittests` for this class.**
 
 ```python
 >>> account = BankAccount("Rado", 0, "$")
