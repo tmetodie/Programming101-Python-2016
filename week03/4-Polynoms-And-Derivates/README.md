@@ -93,7 +93,7 @@ f'(x) = 2x
 And
 
 ```
-$ python3 solution.py '2x^2 + x^2'
+$ python3 solution.py '3x^2'
 The derivative of f(x) = 3x^2 is:
 f'(x) = 6x
 ```
