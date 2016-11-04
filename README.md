@@ -12,8 +12,8 @@ Course materials &amp; problems for HackBulgaria's Programming 101 with Python. 
 | 2 | Monday - 24.10 | [Tasks for week2](week02/) |  |
 | 2 | Wednesday - 26.10 | [Tasks for week2](week02/) | [Reading/writing files, os, sys, main](http://slides.com/hackbulgaria/deck-f6fdcd0f-1abd-4688-9f65-c6ce0ae8e808-67/) |
 | 3 | Monday - 31.10 | [Tasks for week3](week03/) | [OOP](https://slides.com/hackbulgaria/deck-f6fdcd0f-1abd-4688-9f65-c6ce0ae8e808-68/) |
-| 3 | Wednesday - 02.11 | [Tasks for week3](week03/) [Dive into OOP](https://slides.com/hackbulgaria/oop-69/) |
-
+| 3 | Wednesday - 02.11 | [Tasks for week3](week03/)| [Dive into OOP](https://slides.com/hackbulgaria/oop-69/) |
+| 3 | Friday - 04.11 | [Tasks for week3](week03/) | [Unit tests](http://slides.com/hackbulgaria/deck-f6fdcd0f-1abd-4688-9f65-c6ce0ae8e808-70?token=N6V1Mc0c) |
 
 ## Course Program
 
