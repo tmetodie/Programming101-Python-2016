@@ -12,7 +12,8 @@ Course materials &amp; problems for HackBulgaria's Programming 101 with Python. 
 | 2 | Monday - 24.10 | [Tasks for week2](week02/) |  |
 | 2 | Wednesday - 26.10 | [Tasks for week2](week02/) | [Reading/writing files, os, sys, main](http://slides.com/hackbulgaria/deck-f6fdcd0f-1abd-4688-9f65-c6ce0ae8e808-67/) |
 | 3 | Monday - 31.10 | [Tasks for week3](week03/) | [OOP](https://slides.com/hackbulgaria/deck-f6fdcd0f-1abd-4688-9f65-c6ce0ae8e808-68/) |
-
+| 3 | Wednesday - 02.11 | [Tasks for week3](week03/)| [Dive into OOP](https://slides.com/hackbulgaria/oop-69/) |
+| 3 | Friday - 04.11 | [Tasks for week3](week03/) | [Unit tests](http://slides.com/hackbulgaria/deck-f6fdcd0f-1abd-4688-9f65-c6ce0ae8e808-70?token=N6V1Mc0c) |
 
 ## Course Program
 
@@ -27,23 +28,26 @@ Course materials &amp; problems for HackBulgaria's Programming 101 with Python. 
 ### Week 2
 
   * Getting familiar with Python syntax and basic language & data structures
-  * Building console applications.
-
+  * Take a look at other languages: Java, Ruby, Node, JS, etc...
+  * Reading and writing files, JSON 
+ 
 ### Week 3
 
   * Getting familiar with basic Python OOP concepts
-  * Source control systems - working with `git` and GitHub
-  * Take a look at other languages: Java, Ruby, Node, JS, etc...
+  * Introduction to unittests
 
 ### Week 4
 
-  * Introduction to unittests
-  * Introduction to TDD
-
-### Week 5
+  * Function(positional and keyword) arguments
+  * Source control systems - working with `git` and GitHub
   * Working in teams with `git` and GitHub - branches, merges, pull requests
   * Building large console applications with bigger class hierarchy
+ 
+### Week 5
 
+  * Introduction to TDD
+  * Working with Graphs
+  * Finding the shortest path in Graphs
 
 ### Week 6
 
