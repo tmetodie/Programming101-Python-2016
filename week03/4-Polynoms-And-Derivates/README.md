@@ -55,7 +55,7 @@ So if we want to take the derivative of a polynomial function, we just apply tha
 
 ```
 f(x) = 2x^3 + 3x + 1
-f'(x) = 6x^2 + 3
+f'(x) = 6*x^2 + 3
 ```
 
 ## Your task
@@ -65,7 +65,7 @@ Using your OO knowledge, implement a program that takes a string, representing a
 Few examples:
 
 ```
-$ python3 solution.py '2x^3+x'
+$ python3 solution.py '2*x^3+x'
 Derivative of f(x) = 2*x^3 + x is:
 f'(x) = 6*x^2 + 1
 ```
@@ -77,7 +77,7 @@ f'(x) = 0
 ```
 
 ```
-$ python3 solution.py 'x^4+10x^3'
+$ python3 solution.py 'x^4+10*x^3'
 The derivative of f(x) = x^4 + 10*x^3 is:
 f'(x) = 4*x^3 + 30*x^2
 ```
@@ -95,7 +95,7 @@ And
 ```
 $ python3 solution.py '3x^2'
 The derivative of f(x) = 3x^2 is:
-f'(x) = 6x
+f'(x) = 6*x
 ```
 
 Don't bother checking if the polynomial is correct for it's variable. It's always going to be the same ( for example `x`)
