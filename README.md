@@ -15,6 +15,7 @@ Course materials &amp; problems for HackBulgaria's Programming 101 with Python. 
 | 3 | Wednesday - 02.11 | [Tasks for week3](week03/)| [Dive into OOP](https://slides.com/hackbulgaria/oop-69/) |
 | 3 | Friday - 04.11 | [Tasks for week3](week03/) | [Unit tests](http://slides.com/hackbulgaria/deck-f6fdcd0f-1abd-4688-9f65-c6ce0ae8e808-70?token=N6V1Mc0c) |
 | 4 | Monday - 07.11 | [Tasks for week4](week04/) | [Arguments, git and Github](http://slides.com/hackbulgaria/deck-43-71) |
+| 4 | Wednesday - 09.11 | [Tasks for week4](week04/) |  |
 
 ## Course Program
 
