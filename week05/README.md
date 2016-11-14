@@ -145,3 +145,23 @@ Method, which returns all passengers from all flights to destination
 def passengers_to_dest(destination):
     pass
 ```
+
+### Passengers from terminal
+
+Method, which returns all passengers flying from terminal
+
+```python
+def passengers_from_terminal(terminal):
+    pass
+```
+
+### Flights with passengers more than 'number'
+
+Implement a method, which returns the flights with passengers less than a number
+
+```python
+def flights_with_passengers(size):
+    pass
+```
+
+#### Think what will happen if a flight is declined??? What will happen with the passenger?
