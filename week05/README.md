@@ -4,7 +4,7 @@ Discover the world with HackBulgaria Airlines!
 
 ![HackBulgaria Airlines](airplane.png)
 
-We need to collect the needed information for our airline to start working with customers. All data is for one airport!
+We need to collect the needed information, in order HackBulgaria Airlines to start working with customers. All data is for one airport!
 
 So lets start with the basic stuff:
 
@@ -27,9 +27,20 @@ We also need class `Terminal`. Our airport can have more than 1 terminal. Initia
 t = Terminal(number=1, max_flights=20)
 ```
 
+## Passenger
+
+Our Flights cannot fly without passengers!
+
+```python
+p = Passenger(first_name="Rositsa", last_name="Zlateva", flight=Flight(....), age=22)
+```
+
+
 ## Now comes the funny part!
 
-HackBulgaria Airlines need to know a lot of information to work with its customers!
+HackBulgaria Airlines need a lot of information to work with its customers!
+
+Your task is to implement not only the basic classes, but a lot of methods, which the Airline needs. It's time for Test-Driven-Development. First tests, then the main implementation!
 
 ### Flight for date
 
@@ -119,4 +130,18 @@ def flights_on_date_lt_hours(date, hours):
     pass
 ```
 
-Hint
+### Passengers under 18 for flight
+
+```python
+def passengers_under_18(flight):
+    pass
+```
+
+### Passengers to destination
+
+Method, which returns all passengers from all flights to destination
+
+```python
+def passengers_to_dest(destination):
+    pass
+```
