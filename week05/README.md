@@ -164,4 +164,4 @@ def flights_with_passengers(size):
     pass
 ```
 
-#### Think what will happen if a flight is declined??? What will happen with the passenger?
+#### Think what will happen if a flight is declined??? What will happen with the passengers?
