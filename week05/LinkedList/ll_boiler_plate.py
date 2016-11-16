@@ -5,6 +5,9 @@ class LinkedList:
     def add_element(self, data):
         pass
 
+    def set_element(self, index, data):
+        pass
+
     def index(self, index):
         pass
 
@@ -20,6 +23,9 @@ class LinkedList:
     def to_list(self):
         pass
 
+    # add element and index N (Example: ll = [2 => 3 => 4] 
+    # ll.ad_at_index(1, "New data")
+    # ll = [2 => "New data" =>  3 => 4]
     def add_at_index(self, index, data):
         pass
 
