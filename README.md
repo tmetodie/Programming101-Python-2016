@@ -17,6 +17,15 @@ Course materials &amp; problems for HackBulgaria's Programming 101 with Python. 
 | 4 | Monday - 07.11 | [Tasks for week4](week04/) | [Arguments, git and Github](http://slides.com/hackbulgaria/deck-43-71) |
 | 4 | Wednesday - 09.11 | [Tasks for week4](week04/) |  |
 
+## Partners
+
+The course is happening thanks to:
+
+[![Experian](/partners/experian-logo.jpg)](http://www.experian.bg/)
+[![Telebid Pro](/partners/telebidpro-logo.jpg)](http://telebid-pro.com/)
+[![Nemetschek Bulgaria](/partners/nemetschek_logo.jpg)](https://www.nemetschek.bg/)
+
+
 ## Course Program
 
 ### Week 1
