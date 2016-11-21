@@ -56,4 +56,78 @@ def pop(self): pass # Removing (accessing) an element from the queue. In Python 
 def peek(self): pass # get the top data element of the queue, without removing it.
 def is_empty(self): pass # check if queue is empty.
 ```
+
 ## Tree
+
+Today we will learn that kind of structure is the Tree.
+
+Data Structure, which has a main Node, called root. This Node has `n` number of children. The parent of those children is the root. Each child has its own children and etc. The last children of the tree are called leaves.
+
+Important: Each child is the root of its own tree!
+
+Your task for today is to implement the main methods to work with the Tree data structure. We need generic Tree where each node can have different number of children.
+
+```python
+class Tree:
+  def __init__(self, root):
+    pass
+    """
+    When we are creating a new tree, we must always have a root element.
+    For example:
+    tree = Tree(root=5)
+    """
+
+  def add_child(self, parent, child):
+    pass
+    """
+    When we are adding new element to our tree, we must specify the parent:
+    tree = Tree(root=5)
+    tree.add(parent=5, child=4)
+    tree.add(parent=5, child=3)
+    tree.add(parent=4, child=2)
+
+    This will make the following tree:
+
+        5
+       / \
+      4   3
+     /
+    2
+    """
+
+  def find(self, x):
+    pass
+    """
+        Returns True or False if Node with value x is present in the tree
+    """
+
+  def height(self):
+    pass
+    """
+        Returns an integer number of the max height of the tree
+          5
+         / \
+        4   3
+       /
+      2
+
+      tree.height() = 2
+    """
+
+  def count_nodes(self):
+    pass
+    """
+        Returns the number of node sin the tree
+        In our example -> tree.count_nodes() = 4
+    """
+
+  def tree_levels(self):
+    pass
+    """
+        Returns a list of lists with the nodes foe each level1
+        tree.tree_levels = [[5], [4, 3], [2]]
+    """
+
+
+
+```
