@@ -57,23 +57,25 @@ The course is happening thanks to:
 ### Week 5
 
   * Introduction to TDD
-  * Working with Graphs
-  * Finding the shortest path in Graphs
+  * Linked List and Double Linked List
+  * Binary Search
 
 ### Week 6
 
-  * Solving more algorithmic problems  & implementing some of the basic data structures in Python
-
+  * Trees, Stack, Queue
+  * BFS and DFS algorithms
 
 ### Week 7
-
+  * Working with Graphs
+  * Finding the shortest path in Graphs
   * pip
   * virtualenv
+  * Solving OOP related problems
+
 
 ### Week 8
 
  * Understanding the concept behind Python modules & __init__.py
- * Solving OOP related problems
 
 ### Week 9
 
