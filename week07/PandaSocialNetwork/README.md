@@ -1,10 +1,10 @@
-# We are going to make a social networks for Pandas
+# We are going to make a social network for Pandas
 
 This is the next big thing. We promise!
 
 ## Panda
 
-For our social network, we are going to need a `Panda` class which behaves like that:
+For our social network, we are going to need a `Panda` class which should behave like this:
 
 ```python
 ivo = Panda("Ivo", "ivo@pandamail.com", "male")
@@ -16,7 +16,7 @@ ivo.isMale() == True # True
 ivo.isFemale() == False # True
 ```
 
-The `Panda` class also should be possible to:
+The `Panda` class should also:
 
 * Be turned into a string
 * Be hashed and used as a key in a dictionary (`__eq__` and `__hash__`)
@@ -37,7 +37,7 @@ Implement a class, called `PandaSocialNetwork`, which has the following public m
 * `friends_of(panda)` - returns a list of `Panda` with the friends of the given `panda`. Returns `False` if the `panda` is not a member of the network.
 * `connection_level(panda1, panda2)` - returns the connection level between `panda1` and `panda2`. If they are friends, the level is 1. Otherwise, count the number of friends you need to go through from `panda` in order to get to `panda2`. If they are not connected at all, return `-1`! Return `False` if one of the pandas are not member of the network.
 * `are_connected(panda1, panda2)` - return `True` if the pandas are connected somehow, between friends, or `False` otherwise.
-* `how_many_gender_in_network(level, panda, gender)` - returns the number of `gender` pandas (male of female) that in the `panda` network in that many  `level`s deep. If `level == 2`, we will have to look in all friends of `panda` and all of their friends too. And count
+* `how_many_gender_in_network(level, panda, gender)` - returns the number of pandas with gender `gender` (male of female) that are in the `panda` network in `level` levels deep. If `level == 2`, we will have to look in all friends of `panda` and all of their friends too. And count
 
 ## An example
 
@@ -66,8 +66,8 @@ The next thing our social network is going to do is ``saving to your hard drive`
 
 ### social_network.save(file_name)
 
-Write a function that saves the hole social network to a file. The format ot that file is at your choice. You have to be able to load it next time. So all the data in the network must be written down to that file.
+Write a function that saves the whole social network to a file. The format of that file is not important but you have to be able to load it in the program. So all the data in the network must be written down to that file.
 
 ### social_network.load(file_name)
 
-Write a function that loads the hole social network from a file. All the pandas and all the relations.
+Write a function that loads the whole social network from a file. All the pandas and all the relations.
