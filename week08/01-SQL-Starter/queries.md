@@ -1,4 +1,4 @@
-## Movies's schema
+## Database schema
 ![Schema](movies_schema.png)
 
 ## Queries
