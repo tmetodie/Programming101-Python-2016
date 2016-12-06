@@ -34,7 +34,7 @@ Every hero starts with the given `health` and `mana` points.
 
 __Those `health` and `mana` points are the maximum health and mana for the hero!__
 
-* When a hero reaches 0 `health` he is considered death.
+* When a hero reaches 0 `health` he is considered dead.
 * When a hero reaches 0 `mana`, he cannot cast any spells
 
 Implement the following methods:
