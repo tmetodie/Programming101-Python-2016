@@ -34,7 +34,7 @@ Every hero starts with the given `health` and `mana` points.
 
 __Those `health` and `mana` points are the maximum health and mana for the hero!__
 
-* When a hero reaches 0 `health` he is considered death.
+* When a hero reaches 0 `health` he is considered dead.
 * When a hero reaches 0 `mana`, he cannot cast any spells
 
 Implement the following methods:
@@ -120,7 +120,7 @@ The `Enemy` should have the following methods, just like our hero:
 * `take_damage(damage)`
 
 * **Enemies cannot regenerate mana!**
-* **Enemies have starting damage, which is different from a weapon or a spell. They can equip weapons or learn spells but it is not required for them to have any damage, as it is for our hero.**
+* **Enemies have starting damage, which is different from a weapon or a spell. They can equip weapons or learn spells but it is not required for them in order to deal damage, as it is for our hero.**
 
 ## The weapons and spells
 
@@ -130,7 +130,7 @@ One hero can carry at max 1 weapon and 1 spell.
 
 ### Weapon class
 
-Implement a simple class `Weapon` which behave like that:
+Implement a simple class `Weapon` which behaves like this:
 
 ```python
 h = Hero(name="Bron", title="Dragonslayer", health=100, mana=100, mana_regeneration_rate=2)
@@ -143,7 +143,7 @@ h.attack(by="weapon") == 20
 
 ### Spell class
 
-This should be more complex. Implement a spell class, which behaves like that:
+This should be more complex. Implement a spell class, which behaves like this:
 
 ```python
 s = Spell(name="Fireball", damage=30, mana_cost=50, cast_range=2)
@@ -151,14 +151,14 @@ s = Spell(name="Fireball", damage=30, mana_cost=50, cast_range=2)
 
 `name` and `damage` are self explanatory.
 
-* `mana_cost` means that the spell needs at least that much amount of mana in order to be casted. Raise an error if you cannot cast that spell.
+* `mana_cost` means that the spell needs at least that much amount of mana in order to be cast. Raise an error if you cannot cast that spell.
 * `cast_range` is a bit more special and related to the Dungeon. You can cast that spell on an enemy, which is within the `cast_range`. If `cast_range` is 1, you can attack enemies, that are next to you. If cast range is greater than 1, you can attack enemies from distance, that is `cast_range` squares away. **Casting range is only calculated in a straight line. You cannot curve spells**
 
 ## The Dungeons and treasures
 
 We are going to need a dungeon, where our hero can fight his enemies and find powerful weapons and spells!
 
-Our dungeon is going to be a 2D map that looks like that:
+Our dungeon is going to be a 2D map that looks like this:
 
 ```
 S.##.....T
