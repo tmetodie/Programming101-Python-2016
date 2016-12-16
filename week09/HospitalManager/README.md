@@ -168,7 +168,16 @@ You have the abilities to:
 ## Important
 
 - Decide how to log in and out your users
-- On registration add hashing of the user password
+- Validate user password!
+
+  Password constraints:
+   - At least one uppercase letter
+   - At least one lowercase letter
+   - One digit
+   - Length greater than 7
+
+
+- On registration hash the password!
 - Hide the user password! (use `getpass` library)
 - All settings in settings.py
 - All queries in outer file
