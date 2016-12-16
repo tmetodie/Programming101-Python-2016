@@ -57,9 +57,11 @@ Once we have the whole schema done, we need to provide a good command line inter
 
 ```
 Welcome to Hospital Manager!
-Choose 1 to Log into the system
-or 2 to register as a new user.
->
+Choose:
+1 to Log into the system,
+2 to register as a new user,
+3 for help main,
+4 to exit the system.
 ```
 
 #### Log in as a patient
