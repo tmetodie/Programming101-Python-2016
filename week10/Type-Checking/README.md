@@ -21,7 +21,10 @@ Few things to have in mind:
   * There is exactly 1 ` ` between `T1` and `->` and `->` and `T2`.
 * We are going to have only 1 argumented functions.
 * Function names can be camel-cased and will always start with a lower case.
-* Type names are always starting with a capital letter.
+* Type names can be:
+  * Capital letters, like `A`
+  * Small letters, like `a`
+  * Lists of things, like `[A]` or `[a]`
 
 ## Function composition
 
