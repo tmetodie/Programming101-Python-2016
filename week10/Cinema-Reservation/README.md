@@ -34,7 +34,7 @@ No complex stuff here. Just a few simple tables:
 |5|Kiril Hristov| ******** |
 |6|Vladimir Delchev| ******** |
 
-
+! Passwords should be with length at least 8 symbols, 1 capital letter and a special symbol. Also, don't forget to hash the passwords!
 
 **Reservations**
 
@@ -85,6 +85,32 @@ Implement a script that takes magic commands and casts an appropriate spell. Her
 * Make use of the following techniques (Merlin used them to destroy the Decepticons): **OOP, TDD, SQL**.
 
 
+## Problem 2 - Decorators
+```python
+@user_exists
+def make_reservation(user, password):
+    pass
+
+```
+
+If the user exists, make a reservation on its name. If not create a new user and a reservation for him.
+
+```python
+
+@validate_password
+@hash_password
+def set_password(password):
+    pass
+```
+
+```python
+
+@log_info
+def finalize():
+    pass
+```
+Log each reservation in the system.
+
 
 ## Examples
 
@@ -115,7 +141,7 @@ Projections for movie 'The Hunger Games: Catching Fire' on date 2014-04-01:
 ### Make a reservation
 ```
 > make reservation
-You need to be logged in the system to make reservations!
+You need to a user in the system to make reservations!
 Username: Rositsa Zlateva
 Password:
 Hello, Rositsa Zlateva
@@ -123,7 +149,7 @@ Hello, Rositsa Zlateva
 ```
 
 
-### Make a reservation of a logged user
+### Make a reservation
 
 ```
 > make reservation
