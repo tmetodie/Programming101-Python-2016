@@ -86,6 +86,14 @@ Implement a script that takes magic commands and casts an appropriate spell. Her
 
 
 ## Problem 2 - Decorators
+
+```python
+@atomic
+def show_movies():
+    pass
+```
+We want you to implement a decorator for atomic transactions on each of the query you execute with the cinema application~
+
 ```python
 @user_exists
 def make_reservation(user, password):
