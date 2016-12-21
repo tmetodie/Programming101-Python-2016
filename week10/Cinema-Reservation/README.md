@@ -92,7 +92,7 @@ Implement a script that takes magic commands and casts an appropriate spell. Her
 def show_movies():
     pass
 ```
-We want you to implement a decorator for atomic transactions on each of the query you execute with the cinema application~
+We want you to implement a decorator for atomic transactions on each of the query you execute with the cinema application!
 
 ```python
 @user_exists
