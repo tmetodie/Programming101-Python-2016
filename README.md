@@ -72,42 +72,40 @@ The course is happening thanks to:
   * virtualenv
   * Solving OOP related problems
 
-
 ### Week 8
 
- * Understanding the concept behind Python modules & __init__.py
+  * Introducing relational database with pure SQL.
+  * CRUD, JOIN and GROUP BY
 
 ### Week 9
 
-  * Introducing relational database with pure SQL.
+  * Working with pure SQL - making databases & queries
+  * Combining Python & SQL - persisting data & state.
 
 ### Week 10
-
-  * Working with pure SQL - making databases & queries
+  * Combining Python & SQL
+  * Introducing & understanding decorators.
+  * Understanding the concept behind Python modules & __init__.py
 
 ### Week 11
-  * Combining Python & SQL - persisting data & state.
-  * Introducing & understanding decorators.
-
-### Week 12
   * Combining Python & SQL - persisting data & state.
   * Working with security concepts.
   * Introducing & understanding with blocks.
 
-### Week 13
+### Week 12
 
   * Starting to implement our own abstraction over the database creation (homemade ORM)
   * Understanding the need for an ORM
 
-### Week 14
+### Week 13
 
   * Introducing the iterator pattern and generators
   * Making a simple query engine to fetch objects from the database
 
-### Week 15
+### Week 14
 
   * Introducing & working with SQLAlchemy
 
-### Week 16
+### Week 15
 
   * Meta-programming with Python
