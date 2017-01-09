@@ -38,14 +38,14 @@ def main_menu():
 
 
 def logged_menu(logged_user):
-    print("Welcome you are logged in as: "  logged_user.get_username())
+    print("Welcome you are logged in as: " + logged_user.get_username())
     while True:
         command = input("Logged>>")
 
         if command == 'info':
-            print("You are: "  logged_user.get_username())
-            print("Your id is: "  str(logged_user.get_id()))
-            print("Your balance is:"  str(logged_user.get_balance())  '$')
+            print("You are: " + logged_user.get_username())
+            print("Your id is: " + str(logged_user.get_id()))
+            print("Your balance is:" + str(logged_user.get_balance()) + '$')
 
         elif command == 'changepass':
             new_pass = input("Enter your new password: ")
