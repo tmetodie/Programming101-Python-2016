@@ -14,7 +14,7 @@ This is the two dimensional class, where the snakes(pythons) are going to live.
 
 ```python
 class GameWorld():
-    def __init__(self, size):
+    def __init__(self, size, contents):
       pass
 ```
 
@@ -203,9 +203,10 @@ print(game)
 □ □ □ □ □ □ □ □ □ □ □ □ □ □ □
 □ □ □ □ □ □ □ □ □ □ □ □ □ □ □
 
-wall = Cell(Wall(), 2, 7)
-wall = Cell(Wall(), 3, 7)
-wall = Cell(Wall(), 4, 7)
+wall1 = Cell(Wall(), 2, 7)
+wall2 = Cell(Wall(), 3, 7)
+wall3 = Cell(Wall(), 4, 7)
+game.add_content([wall1, wall2, wall3])
 print(game)
 □ □ □ □ □ □ □ □ □ □ □ □ □ □ □
 □ □ □ □ □ □ □ □ □ □ □ □ □ □ □
@@ -224,6 +225,7 @@ print(game)
 □ □ □ □ □ □ □ □ □ □ □ □ □ □ □
 print(game)
 cell = Cell(Food('banana', energy=3), 4, 4)
+game.add_content(cell)
 □ □ □ □ □ □ □ □ □ □ □ □ □ □ □
 □ □ □ □ □ □ □ □ □ □ □ □ □ □ □
 □ □ □ □ □ □ □ ■ □ □ □ □ □ □ □
