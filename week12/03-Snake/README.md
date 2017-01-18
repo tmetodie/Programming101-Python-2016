@@ -23,7 +23,7 @@ class GameWorld():
 game = GameWorld(15)
 print(game[3][4])
 
->>> <main.WorldCell object at 0x7f2bd1359f30>
+>>> <main.Cell object at 0x7f2bd1359f30>
 ```
 
 If the user wants access a non existing WorldCell, you need to raise IndexError!
