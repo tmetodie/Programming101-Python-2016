@@ -89,7 +89,7 @@ class BlackHole(WorldObject):
 
 ```
 
-## Python(Питоня)
+## Python
 
 Our python has a head and body.
 
@@ -149,7 +149,7 @@ __init__(self, world, coords, size, direction)
 ### Vector2D
 
 This class must to have the following methods:
-- add, sub, mul, div, negative
+- add, sub, mul, negative
 
 #### Example
 
