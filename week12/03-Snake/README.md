@@ -60,7 +60,7 @@ If a cell is already filled with something(Food, Wall, etc), you need to raise `
 
 ### Food
 
-Inherited WorldObject and comes with name(like 'Banana') and energy (like '4'). If s snake goes to a cell, where is a Food, the snake energy increases with the number of the cell energy.
+Inherited WorldObject and comes with name(like 'Banana') and energy (like '4'). If s snake goes to a cell, where is a Food, the snake size increases with the number of the cell energy.
 
 ```python
 class Food(WorldObject):
