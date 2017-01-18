@@ -185,7 +185,7 @@ If you hit an error during the game, this must be logged in game_error_logfile!
 
 ```python
 game = GameWorld(15)
-p = Python(game, Vec2D(10, 10), 3, Python.RIGHT)
+p = Python(game, Vec2D(10, 10), 3, Python.LEFT)
 print(game)
 □ □ □ □ □ □ □ □ □ □ □ □ □ □ □
 □ □ □ □ □ □ □ □ □ □ □ □ □ □ □
