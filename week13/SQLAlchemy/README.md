@@ -4,4 +4,4 @@ The understand what is happening & get a feeling of SQLAlchemy, we recommend [**
 
 Intro to SQLAlchemy can be find [**here**](https://github.com/HackBulgaria/Programming101-Python-2016/tree/master/week13/SQLAlchemy/materials/SQLAlchemy.md)
 
-### Your task for today is to rewrite Money-In-The-Bank and Cinema application with SQLAlchemy.
+### Your task for today is to rewrite Money-In-The-Bank and Cinema application with SQLAlchemy and MVC architecture.
