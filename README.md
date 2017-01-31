@@ -95,17 +95,16 @@ The course is happening thanks to:
 ### Week 12
   * Introducing the iterator pattern and generators
   * Introducing & understanding with blocks.
-  * Starting to implement our own abstraction over the database creation (homemade ORM)
-  * Understanding the need for an ORM
+  * Meta-programming with Python
 
 ### Week 13
-
+  * Starting to implement our own abstraction over the database creation (homemade ORM)
+  * Understanding the need for an ORM
   * Introducing & working with SQLAlchemy
   * Making a simple query engine to fetch objects from the database
 
 ### Week 14
   * World Wide Web - HTTP, Servers
-  * Meta-programming with Python
 
 ### Week 15
   * Django 
