@@ -9,7 +9,7 @@ All documentation about the use of [Django Forms](https://docs.djangoproject.com
 At this point you have a course system with different types of users.
 Your task is to refactor the existing forms in your project.
 
-The registration form, login form, etc. need to inherited the Form class, which Django provides.
+The registration form, login form, create and edit course/lectures forms, etc. need to inherited the Form class, which Django provides.
 
 ```python
 from django import forms
