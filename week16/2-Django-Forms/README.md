@@ -11,6 +11,8 @@ Your task is to refactor the existing forms in your project.
 
 The registration form, login form, create and edit course/lectures forms, etc. need to inherited the Form class, which Django provides.
 
+### Example of RegisterForm
+
 ```python
 from django import forms
 from .models import User
@@ -23,4 +25,9 @@ class RegisterForm(forms.Form):
     password = forms.CharField(widget=forms.PasswordInput)
 ```
 
-Your forms must have `save` methods, validators of the fields and look good to the end-user.
+Your forms must have `save` methods and validators of the fields.
+
+### Additional information
+* [Form widgets](https://docs.djangoproject.com/en/1.10/ref/forms/widgets/)
+* [Form Fields](https://docs.djangoproject.com/en/1.10/ref/forms/fields/)
+* [Forms API](https://docs.djangoproject.com/en/1.10/ref/forms/api/)
